@@ -1,2 +1,2 @@
 # hector1489.github.io
-+ proyector hector gonzalez 
++ proyecto colaborativo- desafios Latam- Hector Gonzalez 
