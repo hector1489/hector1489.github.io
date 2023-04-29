@@ -1,15 +1,18 @@
-function showTime() {
-   let date = new Date();
-   let h = date.getHours();
-   let m = date.getMinutes();
-   let s = date.getSeconds();
-   let session = "PM";
+const maquina1 = document.querySelector('#pName');
 
-   h = (h<10)?"0"+h:h;
-   m = (h<10)?"0"+m:m;
-   s = (h<10)?"0"+s:s;
+const maquinaEcribir1 = (text = '',tiempo = 200, etiqueta = '') => {
+    let arrayCaracteres = text.split('')
+    etiqueta.innerHTML += ''
+    let cont = 0
+    let escribir = setInterval(function() {
+        etiqueta.innerHTML += arrayCaracteres[cont]
+        cont++
+        if (cont == arrayCaracteres.length){
+            cont = 0
+            etiqueta.innerHTML = ''
+        }
+    },tiempo)
+};
 
-   document.getElementById("DigitalClock").innerHTML = h + ":" + m + ":" + s + "" + session;
-   setTimeout(showTime,1000)
-}
-showTime();
+maquinaEcribir1("Hector Gonzalez Pastenes....",350,maquina1);
+

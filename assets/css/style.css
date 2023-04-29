@@ -4,9 +4,19 @@ body {
 }
 
 /* HEADER */
-.Clock {
-    color: green;
+#header1 {
+    height: 400px;
     background-color: black;
+    color: green;
+}
+.logo-icon {
+    color: grey;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.logo-icon:hover {
+    color: green;
 }
 .social-icon {
     color: black;
@@ -21,4 +31,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+#name {
+    display: flex;
 }
