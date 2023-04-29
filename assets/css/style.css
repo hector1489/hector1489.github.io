@@ -14,18 +14,8 @@ body {
     transition: color 0.2s;
     text-decoration: none;
 }
-
 .logo-icon:hover {
     color: green;
-}
-.social-icon {
-    color: black;
-    transition: color 0.2s;
-    text-decoration: none;
-}
-
-.social-icon:hover {
-    color: #6771ca;
 }
 .avatar {
     width: 300px;
@@ -34,4 +24,15 @@ body {
 }
 #name {
     display: flex;
+}
+
+/*form*/
+.social-icon {
+    color: black;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #6771ca;
 }
