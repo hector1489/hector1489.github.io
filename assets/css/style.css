@@ -25,7 +25,16 @@ body {
 #name {
     display: flex;
 }
-
+/*cards*/
+.card {
+    box-shadow: 0px 1px 10px rgba(116, 103, 103, 0.336);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(119, 106, 106, 0.973);
+    transform: translateY(-3%);
+}
 /*form*/
 .social-icon {
     color: black;
