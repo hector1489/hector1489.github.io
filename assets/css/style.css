@@ -25,6 +25,7 @@ body {
 #name {
     display: flex;
 }
+
 /*cards*/
 .card {
     box-shadow: 0px 1px 10px rgba(116, 103, 103, 0.336);
